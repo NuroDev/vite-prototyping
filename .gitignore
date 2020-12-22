@@ -91,6 +91,9 @@ dist
 # vuepress build output
 .vuepress/dist
 
+# vite ssr build output
+dist-ssr
+
 # Serverless directories
 .serverless/
 
@@ -102,3 +105,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# macOS temp files
+.DS_Store
+
+# Local working files
+*.local
