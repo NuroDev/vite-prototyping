@@ -13,3 +13,20 @@ export default {
   }
 }
 </script>
+
+<style lang="postcss">
+/*! @import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply antialiased bg-gray-50;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+#app {
+  @apply mt-64 text-center;
+  color: #2c3e50;
+}
+</style>
